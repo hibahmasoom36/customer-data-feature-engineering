@@ -12,12 +12,12 @@ The goal was to transform messy demographic and financial data into meaningful f
 
 ## 🗂️ Deliverables
 - `Customer_Dataset_Data.csv` → original dataset provided for analysis.  
-- `customer_data_with_additional_features.csv` → final dataset with cleaned values and engineered features.  
-- `data-due-diligence-report.pdf` → detailed analysis, cleaning decisions, and feature documentation.  
+- `data-due-diligence-report.pdf` → detailed report including cleaning steps, feature engineering, and visual analysis:contentReference[oaicite:2]{index=2}.  
+- `DATA_DICTIONARY.md` → documentation of variables and engineered features.  
 
 ## 🛠️ Key Insights
-- Missing data was imputed using mode (categorical) and median (continuous) values.  
-- Financial variables such as **household income** and **car value** were normalized for consistency.  
+- Missing data imputed using mode (categorical) and median (continuous) values.  
+- Financial variables (e.g., HHIncome, CarValue) normalized for consistency.  
 - Engineered features included:  
   - `TotalDebt` → consolidated financial obligations.  
   - `DebtToAgeRatio` → measure of financial stress vs. life stage.  
@@ -26,14 +26,13 @@ The goal was to transform messy demographic and financial data into meaningful f
   - `AnnualCardSpend` → estimated spending habits.  
   - `RetirementSavingsPotential` → long-term financial preparedness.  
 
-## 📊 Visual Examples
-Some exploratory plots from the analysis:
-- Distribution of **Debt-to-Age Ratio**  
-- Relationship between **Household Income vs. Debt-to-Age Ratio**  
-- Relationship between **PetDensity vs. Household Size**  
-- Distribution of **AnnualCardSpend**  
+## 📊 Visual Highlights
+- Distribution of **Debt-to-Age Ratio** (financial stress signals).  
+- **Household Income vs. Debt-to-Age Ratio** (correlation with income levels).  
+- **PetDensity vs. Household Size** (segmentation opportunity).  
+- Distribution of **AnnualCardSpend** (high-value customers).  
 
-*(See full report for charts and additional analysis.)*
+*(See report for full set of visualizations.)*
 
 ## 📂 Repo Structure
 /README.md
