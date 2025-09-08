@@ -11,7 +11,8 @@ The goal was to transform messy demographic and financial data into meaningful f
 - Conduct **exploratory visual analysis** to assess feature utility.  
 
 ## 🗂️ Deliverables
-- `customer_data.csv` → anonymized dataset with original + engineered features (if sharable).  
+- `Customer_Dataset_Data.csv` → original dataset provided for analysis.  
+- `customer_data_with_additional_features.csv` → final dataset with cleaned values and engineered features.  
 - `data-due-diligence-report.pdf` → detailed analysis, cleaning decisions, and feature documentation.  
 
 ## 🛠️ Key Insights
@@ -27,13 +28,12 @@ The goal was to transform messy demographic and financial data into meaningful f
 
 ## 📊 Visual Examples
 Some exploratory plots from the analysis:
-
 - Distribution of **Debt-to-Age Ratio**  
 - Relationship between **Household Income vs. Debt-to-Age Ratio**  
 - Relationship between **PetDensity vs. Household Size**  
 - Distribution of **AnnualCardSpend**  
 
-*(See report for full set of visualizations.)*
+*(See full report for charts and additional analysis.)*
 
 ## 📂 Repo Structure
 /README.md
